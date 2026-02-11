@@ -1,8 +1,7 @@
-import { useCount, } from "@/store/count";
+import { useCount } from "@/store/count";
 
-export default function Viewer(){
-
-const count = useCount();
+export default function Viewer() {
+  const count = useCount();
 
   return <div>{count}</div>;
 }
